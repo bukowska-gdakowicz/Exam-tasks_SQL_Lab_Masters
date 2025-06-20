@@ -228,3 +228,6 @@ select
 *
 from hr.employees e join hr.departments d using(department_id) join hr.locations l using(location_id)
 join hr.countries c using(country_id) where country_name='United Kingdom';
+
+
+
